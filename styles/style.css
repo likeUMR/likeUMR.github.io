@@ -6,6 +6,21 @@
 body {
     font: 16px Arial，'黑体';
     /* font-size: 150%; */
+
+}
+
+body {
+    width: 600px;
+    margin: 0 auto;
+    background-color: #FF9500;
+    padding: 0 20px 20px 20px;
+    border: 5px solid black;
+}
+
+html {
+    /* font-size: 10px; */
+    font-family: 'Noto Sans SC', sans-serif;
+    background-color: #00539F;
 }
 
 #d1 {
@@ -21,8 +36,8 @@ p {
 * {
     /* color: #1E90FF; */
     font-family: 'ZCOOL KuaiLe',
-    cursive;
-        
+        cursive;
+
     text-align: center;
 }
 
@@ -33,6 +48,7 @@ h1 {
     color: #1E90FF;
     text-shadow: 3px 3px 1px #00539F;
 }
+
 .grey {
     color: #666;
 }
