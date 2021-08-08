@@ -1,0 +1,38 @@
+#p1 {
+    border: 15px;
+    border-radius: 50%;
+}
+
+body {
+    font: 16px Arial，'黑体';
+    /* font-size: 150%; */
+}
+
+#d1 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+p {
+    text-indent: 2em;
+    line-height: 2.5em;
+}
+
+* {
+    /* color: #1E90FF; */
+    font-family: 'ZCOOL KuaiLe',
+    cursive;
+        
+    text-align: center;
+}
+
+h1 {
+    text-align: left;
+    margin: 0;
+    padding: 20px 0;
+    color: #1E90FF;
+    text-shadow: 3px 3px 1px #00539F;
+}
+.grey {
+    color: #666;
+}
