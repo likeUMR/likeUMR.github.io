@@ -25,6 +25,7 @@ html {
     /* font-size: 10px; */
     font-family: 'Noto Sans SC', sans-serif;
     background-color: #00539F;
+    background-size: 100%;
     background-image: url(../images/bg.jpg);
     background-repeat: no-repeat;
     /* background-attachment: fixed; */
