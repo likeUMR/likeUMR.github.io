@@ -1,6 +1,12 @@
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+
 #p1 {
     border: 15px;
     border-radius: 50%;
+
 }
 
 
@@ -22,7 +28,7 @@ html {
     background-image: url(../images/bg.jpg);
     background-repeat: no-repeat;
     /* background-attachment: fixed; */
-    
+
     /* background-position: top center; */
     /*兼容浏览器版本*/
     /* -webkit-background-size: cover;
@@ -86,4 +92,25 @@ a:active {
 
 input:focus {
     background-color: #75c1ff;
+}
+
+
+table {
+    border-collapse: collapse; 
+}
+
+td
+{
+    border:black 1px solid;
+    
+}
+th {
+    border: black 1px solid;
+
+}
+#fly{
+    width: 100px;
+    height: 300px;
+    background-color: skyblue;
+    float: left;
 }
