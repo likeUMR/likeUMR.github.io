@@ -23,11 +23,14 @@ body {
 
 html {
     /* font-size: 10px; */
-    font-family: 'Noto Sans SC', sans-serif;
-    background-color: #00539F;
+    font-family: Arial, Helvetica, sans-serif;
+    /* background-color: #00539F;
     background-size: 100%;
     background-image: url(../images/bg.jpg);
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
+    
+    background:#00539F url(../images/bg.jpg) no-repeat top left;
+    background-size: 100% 100%;
     /* background-attachment: fixed; */
 
     /* background-position: top center; */
@@ -49,7 +52,7 @@ p {
 
 * {
     /* color: #1E90FF; */
-    font-family: 'ZCOOL KuaiLe',
+    font-family: Arial, Helvetica, sans-serif,
         cursive;
 
     text-align: center;
@@ -88,7 +91,7 @@ a:hover {
 }
 
 a:active {
-    color: skyblue;
+    color: rgb(135, 206, 235);
 }
 
 input:focus {
@@ -97,21 +100,39 @@ input:focus {
 
 
 table {
-    border-collapse: collapse; 
+    border-collapse: collapse;
 }
 
-td
-{
-    border:black 1px solid;
-    
+td {
+    border: black 1px solid;
+
 }
+
 th {
     border: black 1px solid;
 
 }
-#fly{
+
+#fly {
+    position: fixed;
+    top:100px;
+    left:0px;
     width: 100px;
     height: 300px;
     background-color: skyblue;
     float: left;
+}
+
+textarea{
+    resize: none;
+}
+input{
+    outline: 0;
+}
+.test{
+    vertical-align: top;
+    background-color: #fff;
+    height:30px;
+    line-height: 30px;
+    font-size: 10px;
 }
